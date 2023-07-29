@@ -8,5 +8,23 @@
 	2.1 - Criando uma viewport e camera para o jogo - Feito
 	2.2 - Ajustando as proporções para a view ser grande e a viewport menor - Feito
 	
+3 - Atirando
+	3.1 - Importando as sprites do tiro - Feito
+	3.2 - Criando o objeto do tiro - Feito
+	3.3 - Fazendo o tiro ir pra cima - Feito
+	3.4 - Fazendo o jogador atirar ao apertar espaço - Feito
+	3.5 - Dando um efeito legal para o tiro - Feito
+		3.5.1 - Fazer ele nascer grande e depois de um tempo ficar pequeno - Feito
+	3.6 - Destruir o tiro quando ele sair da room	
+
+4 - Criando o Inimigo
+	4.1 - Importar a sprite deler
+	4.2 - Criar o objeto
+	4.3 - Fazendo ele ir para baixo
 	
-	
+5 - Fazendo o inimigo polvo atirar
+	5.1 - Importando a sprite - Feito
+	5.2 - Criando o objeto - Feito
+	5.3 - Fazendo o tiro ir para baixo - Feito
+	5.4 - Atirando - Feito
+	5.5 - Dando um efeito no tiro - Feito
