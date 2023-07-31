@@ -34,5 +34,24 @@
 6 - Fazendo o tiro do player acertar o inimigo
 	6.1 - Se destruir ao acertar o inimigo - Feito
 	6.2 - Criar o impacto do tiro do player - Feito
-	6.3 - Fazendo o impacto desaparecer ao final da animação	
-	6.4 - Fazer o tiro não criar o impacto quando ele sair da room
+	6.3 - Fazendo o impacto desaparecer ao final da animação - Feito	
+	6.4 - Fazer o tiro não criar o impacto quando ele sair da room - Feito
+	
+7 - Fazendo o tiro do inimigo atingir o player e ser destruido	
+	7.1 - Destruindo o tiro do inimigo quando ele sair da room - Feito
+	
+8 - Destruindo o inimigo quando ele levar um tiro - FEITO
+	8.1 - Fazer o tiro do player também destruir o inimigo que colidir com ele
+	8.2 - Fazer com que ao ser destruido o inimigo crie uma explosão
+		8.2.1 - Criar a sprite da explosão - Feito
+		8.2.2 - Criar o objeto dela - Feito
+		8.2.3 - Fazendo o inimigo instânciar a explosão ao se destruir - Feito
+		8.2.4 - Fazer a explosão se destruir após o final da animação - Feito
+
+9 - Pequenos ajustes parte 1
+	9.1 - Fazendo o inimigo ser destruido ao sair da tela - Feito
+	9.2 - Deixando o background melhor - Feito
+	9.3 - Deixando o tiro mais bonito
+	
+10 - Criando o background - Feito
+	10.1 - 

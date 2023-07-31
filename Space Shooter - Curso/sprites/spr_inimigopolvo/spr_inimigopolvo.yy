@@ -26,7 +26,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"83b74d79-5010-4b7b-b68d-a026d96aa9d1","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 1,
+  "origin": 4,
   "parent": {
     "name": "Inimigos",
     "path": "folders/Sprites/Inimigos.yy",
@@ -66,7 +66,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 33,
-    "yorigin": 0,
+    "yorigin": 54,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
