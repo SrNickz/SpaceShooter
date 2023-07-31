@@ -1,0 +1,2 @@
+me_destruir()
+

@@ -28,3 +28,11 @@
 	5.3 - Fazendo o tiro ir para baixo - Feito
 	5.4 - Atirando - Feito
 	5.5 - Dando um efeito no tiro - Feito
+
+(Criação de métodos)
+
+6 - Fazendo o tiro do player acertar o inimigo
+	6.1 - Se destruir ao acertar o inimigo - Feito
+	6.2 - Criar o impacto do tiro do player - Feito
+	6.3 - Fazendo o impacto desaparecer ao final da animação	
+	6.4 - Fazer o tiro não criar o impacto quando ele sair da room
