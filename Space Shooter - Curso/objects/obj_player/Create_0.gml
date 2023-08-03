@@ -1,4 +1,5 @@
-vel = 5;
+vel = 5
+
 
 // Criando um método
 

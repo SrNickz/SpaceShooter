@@ -51,7 +51,15 @@
 9 - Pequenos ajustes parte 1
 	9.1 - Fazendo o inimigo ser destruido ao sair da tela - Feito
 	9.2 - Deixando o background melhor - Feito
-	9.3 - Deixando o tiro mais bonito
+	9.3 - Deixando o tiro mais bonito - Feito
+		9.3.1 - Criar a sprite do brilho - Feito
+		9.3.2 - Criar o evento draw - Feito
+		9.3.3 - Se desenhar - Feito
+		9.3.4 - Desenhar o brilho - Feito
+		9.3.5 - Alterar como a gpu processa a mistura de imagens - Feito
+		9.3.6 - Criar a variavel cores para ele mudar de cor - Feito
+		9.3.7 - Diminuir o tiro aos poucos, usando ou não o LERP - Feito
+		
 	
 10 - Criando o background - Feito
 	10.1 - 

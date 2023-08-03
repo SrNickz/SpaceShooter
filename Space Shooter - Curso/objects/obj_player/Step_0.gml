@@ -8,7 +8,7 @@ _down	= keyboard_check(ord("S"));
 
 // Movimentação
 x += (_right - _left) * vel;
-y += (_down - _up) * vel
+y += (_down - _up) * vel;
 
 // Convertendo em um método
 // Atirando
