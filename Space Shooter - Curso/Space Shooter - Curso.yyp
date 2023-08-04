@@ -41,6 +41,7 @@
   },
   "resources": [
     {"id":{"name":"spr_fundo3","path":"sprites/spr_fundo3/spr_fundo3.yy",},},
+    {"id":{"name":"obj_inimigonave","path":"objects/obj_inimigonave/obj_inimigonave.yy",},},
     {"id":{"name":"spr_tiro_player","path":"sprites/spr_tiro_player/spr_tiro_player.yy",},},
     {"id":{"name":"obj_impactotiro","path":"objects/obj_impactotiro/obj_impactotiro.yy",},},
     {"id":{"name":"spr_brilho_polvo","path":"sprites/spr_brilho_polvo/spr_brilho_polvo.yy",},},
@@ -55,6 +56,7 @@
     {"id":{"name":"spr_brilho_tiro_1","path":"sprites/spr_brilho_tiro_1/spr_brilho_tiro_1.yy",},},
     {"id":{"name":"obj_tiropolvo","path":"objects/obj_tiropolvo/obj_tiropolvo.yy",},},
     {"id":{"name":"spr_fundo2","path":"sprites/spr_fundo2/spr_fundo2.yy",},},
+    {"id":{"name":"spr_inimigonave","path":"sprites/spr_inimigonave/spr_inimigonave.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"spr_fundo","path":"sprites/spr_fundo/spr_fundo.yy",},},
     {"id":{"name":"obj_explosao","path":"objects/obj_explosao/obj_explosao.yy",},},

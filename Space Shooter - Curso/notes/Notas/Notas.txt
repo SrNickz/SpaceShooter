@@ -48,7 +48,7 @@
 		8.2.3 - Fazendo o inimigo instânciar a explosão ao se destruir - Feito
 		8.2.4 - Fazer a explosão se destruir após o final da animação - Feito
 
-9 - Pequenos ajustes parte 1
+9 - Pequenos ajustes parte 1 - Feito
 	9.1 - Fazendo o inimigo ser destruido ao sair da tela - Feito
 	9.2 - Deixando o background melhor - Feito
 	9.3 - Deixando o tiro mais bonito - Feito
@@ -59,7 +59,21 @@
 		9.3.5 - Alterar como a gpu processa a mistura de imagens - Feito
 		9.3.6 - Criar a variavel cores para ele mudar de cor - Feito
 		9.3.7 - Diminuir o tiro aos poucos, usando ou não o LERP - Feito
+	9.4 - Deixando as explosões mais bonitas
+		9.4.1 - Criar o draw event - Feito
+		9.4.2 - Se desenhar - Feito
+		9.4.3 - Me desenhar um pouco maior - Feito
+		9.4.4 - Alterar como a gpu processa a mistura de cores - Feito
+		9.4.5 - 
 		
 	
 10 - Criando o background - Feito
-	10.1 - 
+	
+11 - Criando o segundo inimigo
+	11.1 - Importando a sprite dele - Feito
+	11.2 - Criando o objeto dele - Feito
+	11.3 - Fazendo o inimigo dois herdar comportamentos do inimigo um - Feito
+	11.4 - Fazendo ele mudar de direção ao ele chegar mais ou menos no meio da room
+		11.4.1 - Checando de que lado da room eu estou
+	11.5 - Fazer ele mudar de direção se ja passou 1/3 da tela
+	11.6 - Quero que ele faça isso apenas UMA vez
