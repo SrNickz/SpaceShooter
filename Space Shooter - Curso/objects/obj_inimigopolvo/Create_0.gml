@@ -1,6 +1,7 @@
 //randomize();
 image_xscale = 1;
 image_yscale = 1;
+cores = choose(c_red, c_lime, c_aqua, c_white);
 
 atirando = function() {
 	if (y >= 0) {

@@ -73,7 +73,28 @@
 	11.1 - Importando a sprite dele - Feito
 	11.2 - Criando o objeto dele - Feito
 	11.3 - Fazendo o inimigo dois herdar comportamentos do inimigo um - Feito
-	11.4 - Fazendo ele mudar de direção ao ele chegar mais ou menos no meio da room
-		11.4.1 - Checando de que lado da room eu estou
-	11.5 - Fazer ele mudar de direção se ja passou 1/3 da tela
-	11.6 - Quero que ele faça isso apenas UMA vez
+	11.4 - Fazendo ele mudar de direção ao ele chegar mais ou menos no meio da room - Feito
+		11.4.1 - Checando de que lado da room eu estou - Feito
+	11.5 - Fazer ele mudar de direção se ja passou 1/3 da tela - Feito
+	11.6 - Quero que ele faça isso apenas UMA vez - Feito
+	11.7 - Fazendo o inimigo criar o proprio tiro - Feito
+		11.7.1 - Criar a função atirando do inimigo 2 - Feito
+		
+12 - Criando o segundo tiro do inimigo
+	12.1 - Importando a sprite - Feito
+	12.2 - Criando o objeto - Feito
+	12.3 - Fazendo ele ser filho do tiropolvo - Feito
+	12.4 - Iniciar indo na direção do player - Feito
+	12.5 - Apontando para a direção do player
+		12.5.1 - Fazer ela ganhar 90º - Feito
+		12.5.2 - Indo para a direção do player APENAS se ele existe 
+
+13 - Criação procedural dos inimigos
+	13.1 - Fazer com que o objeto control crie inimigos de tempos em tempos - Feito
+		13.1.1 - Fazendo com que a posição X e Y dos inimigos criados seja aleatória - Feito
+
+14 - Criando o objeto controlador do jogo
+	14.1 - Ganhando pontos ao matar o inimigo 
+	
+15 - Criando o sistema de pontos 
+	15.1 - Ganhando pontos ao destruir os inimigos
