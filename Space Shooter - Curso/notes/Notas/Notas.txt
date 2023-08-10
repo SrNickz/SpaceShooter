@@ -97,4 +97,10 @@
 	14.1 - Ganhando pontos ao matar o inimigo 
 	
 15 - Criando o sistema de pontos 
-	15.1 - Ganhando pontos ao destruir os inimigos
+	15.1 - Iniciando a variavel pontos - Feito
+	15.2 - Ganhando pontos ao destruir os inimigos - Feito
+	15.3 - Rodando o método de ganhar pontos APENAS se o obj controller existe - Feito
+	15.4 - Fazendo com que inimigos diferentes me façam ganhar pontos diferentes
+	15.5 - Criar uma variável nos inimigos chamada pontos e ela vai ter quantos pontos eles dão
+	
+16 - Criando o sistema de level
