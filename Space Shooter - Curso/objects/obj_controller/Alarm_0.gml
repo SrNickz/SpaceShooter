@@ -1,9 +1,14 @@
 //show_debug_message("Oi");
-var _xx, _yy 
-_xx = random_range(110, 1810);
-_yy = random_range(-1000, -110);
-instance_create_layer(_xx ,_yy, "Inimigos", obj_inimigopolvo);
 
-alarm[0]  = room_speed;
+// Repetindo o mesmo código 
+// Criando o inimigo
+var _quantidade_de_inimigos = 5 * level;
+
+if (!instance_exists(obj_inimigopolvo)) {
+	repeat(_quantidade_de_inimigos) {
+		cria_inimigos();
+	}
+}
+alarm[0]  = room_speed * 5;
 
 

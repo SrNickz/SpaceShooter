@@ -3,6 +3,12 @@ image_xscale = 1;
 image_yscale = 1;
 cores = choose(c_red, c_lime, c_aqua, c_white);
 pontos = 10;
+
+// Me destruindo se estou colidindo com alguém
+if (place_meeting(x, y, obj_inimigopolvo)) {
+	instance_destroy();	
+}
+
 atirando = function() {
 	if (y >= 0) {
 		

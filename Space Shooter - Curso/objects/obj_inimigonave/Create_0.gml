@@ -2,6 +2,7 @@
 // You can write your code in this editor
 // Inherit the parent event
 event_inherited();
+speed = 3;
 pontos = 20;
 // Criando minha variavel de controle para saber se posso me mover para os lados
 pode_se_mover_para_lado = true;
