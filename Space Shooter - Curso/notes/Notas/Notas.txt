@@ -114,4 +114,5 @@
 	16.3 - Ganhar 1 level quando eu ganhar um determinado numero de pontos - Feito
 	16.4 - Sempre que ganhar um level, o valor para ir pro proximo level irá dobrar	- Feito
 	
-17 - Criando os power-ups do jogador
+17 - Deixar o tiro do player automatico
+	17.1 - Criando o evento para o tiro

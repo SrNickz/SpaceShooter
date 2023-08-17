@@ -15,3 +15,6 @@ y += (_down - _up) * vel;
 
 atirando()
 
+
+
+

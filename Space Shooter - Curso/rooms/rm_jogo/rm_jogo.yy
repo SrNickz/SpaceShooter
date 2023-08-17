@@ -7,8 +7,8 @@
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_340B7555","path":"rooms/rm_jogo/rm_jogo.yy",},
     {"name":"inst_18BFFB5E","path":"rooms/rm_jogo/rm_jogo.yy",},
+    {"name":"inst_340B7555","path":"rooms/rm_jogo/rm_jogo.yy",},
   ],
   "isDnd": false,
   "layers": [
