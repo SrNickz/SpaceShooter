@@ -116,3 +116,15 @@
 	
 17 - Deixar o tiro do player automatico
 	17.1 - Criando o evento para o tiro
+	
+18 - Dando leveis para o tiro do player
+	18.1 - Criando o sistema de leveis - Feito
+	18.2 - Criando o sistema de debug dos leveis - Feito
+	18.3 - Fazendo o player dar o segundo tiro no level 2 - Feito
+	
+19 - Criando o segundo tiro do player
+	19.1 - Importando a sprite - Feito
+	19.2 - Criando o objeto - Feito
+	19.3 - Falar que esse tiro é filho do tiro 1 do player
+	19.4 - Ajustando os efeitos do tiro 2
+	

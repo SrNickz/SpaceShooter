@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Inimigos",
-    "path": "folders/Objects/Inimigos.yy",
+    "name": "Efeitos",
+    "path": "folders/Sprites/Efeitos.yy",
   },
   "parentObjectId": null,
   "persistent": false,

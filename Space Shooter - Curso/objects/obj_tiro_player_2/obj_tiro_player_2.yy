@@ -1,19 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_impactotiro",
+  "name": "obj_tiro_player_2",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Efeitos",
-    "path": "folders/Sprites/Efeitos.yy",
+    "name": "Player",
+    "path": "folders/Objects/Player.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_tiro_player",
+    "path": "objects/obj_tiro_player/obj_tiro_player.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -30,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_impactotiro",
-    "path": "sprites/spr_impactotiro/spr_impactotiro.yy",
+    "name": "spr_tiro_player_2",
+    "path": "sprites/spr_tiro_player_2/spr_tiro_player_2.yy",
   },
   "spriteMaskId": null,
   "visible": true,
