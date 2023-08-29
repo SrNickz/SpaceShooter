@@ -8,7 +8,7 @@ pontos = 0;
 level = 1;
 
 // Quantos pontos eu preciso para o proximo level
-proximo_level = 100;
+proximo_level = 20;
 // Criando um metodo para ganhar pontos 
 
 ///@method ganha_pontos(pontos)

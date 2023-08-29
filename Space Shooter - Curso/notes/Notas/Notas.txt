@@ -125,6 +125,11 @@
 19 - Criando o segundo tiro do player
 	19.1 - Importando a sprite - Feito
 	19.2 - Criando o objeto - Feito
-	19.3 - Falar que esse tiro é filho do tiro 1 do player
-	19.4 - Ajustando os efeitos do tiro 2
-	
+	19.3 - Falar que esse tiro é filho do tiro 1 do player - Feito
+	19.4 - Ajustando os efeitos do tiro 2 - Feito
+	19.5 - Criando dois tiros por vez, um em cada asa - Feito
+	19.6 - Fazer o tiro mudar de direção
+		19.6.1 - Fazendo o tiro ganhar uma direção - Feito
+		19.6.2 - Fazendo o tiro inverter a posição horizontal
+	19.7 - Criando o terceiro tiro
+		19.7.1 - Criando o tiro 2 e o tiro 1 juntos
