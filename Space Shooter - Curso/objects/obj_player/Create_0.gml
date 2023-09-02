@@ -28,8 +28,18 @@ atirando = function()	{
 			instance_create_layer(x, y_tiro, "Tiro", obj_tiro_player);	
 			tiro2();
 		}
-	}	
-}
+		// Tiro do level 4
+		else if (level_tiro == 4) {
+			tiro4()
+			}
+		// Tiro do level 5
+		else if (level_tiro == 5) {
+			tiro4();
+			tiro2();
+			}
+		}
+	}
+
 
 // Método para criar o tiro 2
 tiro2 = function() {
@@ -44,4 +54,18 @@ tiro2 = function() {
 		var tiro_2 = instance_create_layer(x + 70, y_tiro + 30, "Tiro", obj_tiro_player_2);
 		tiro_2.hspeed = 5
 }
-	
+
+// Método para criar o tiro 4
+tiro4 = function() {
+		var y_tiro = y - sprite_height / 2 - 30;
+		var direcao = 75
+		repeat(3) {
+			var meu_tiro = instance_create_layer(x, y_tiro + 10, "Tiro", obj_tiro_player);	
+			// Definir a direção dele
+			meu_tiro.direction = direcao;
+			// Fazer meu tiro olhar para onde ele está indo
+			meu_tiro.image_angle = meu_tiro.direction - 90;
+			// Aumento minha direção em 15 
+			direcao += 15;
+	}
+}	

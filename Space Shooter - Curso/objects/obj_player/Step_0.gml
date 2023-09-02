@@ -32,6 +32,15 @@ if (keyboard_check_pressed(vk_down)) {
 	}
 }
 
-show_debug_message(level_tiro)
+// Diminuir a espera do tiro se eu apertei a seta para a esquerda (10%) -> Multiplicar por 0.9 (90%)
+if (keyboard_check_pressed(vk_left)) {
+	espera_tiro *= .9;
+}	
+// E aumentar a espera se apertar a seta pra direita (10%) Multiplicar por 1.1 (110%)
+if (keyboard_check_pressed(vk_right)) {
+	espera_tiro *= 1.1;
+}	
 
+show_debug_message(level_tiro);
+show_debug_message(espera_tiro);
 
