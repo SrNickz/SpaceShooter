@@ -130,6 +130,14 @@
 	19.5 - Criando dois tiros por vez, um em cada asa - Feito
 	19.6 - Fazer o tiro mudar de direção
 		19.6.1 - Fazendo o tiro ganhar uma direção - Feito
-		19.6.2 - Fazendo o tiro inverter a posição horizontal
-	19.7 - Criando o terceiro tiro
-		19.7.1 - Criando o tiro 2 e o tiro 1 juntos
+		19.6.2 - Fazendo o tiro inverter a posição horizontal - feito
+	19.7 - Criando o quarto level do tiro - Feito
+	19.8 - Criando o quinto level do tiro 
+
+20 - Fazer o player ganhar power up
+	20.1 - Criar a sprite do power up - Feito
+	20.2 - Criar o objeto do power up - Feito
+	20.3 - Criar a chance de cada power up - Feito
+	20.4 - Criar o método de power up no player - Feito
+	20.5 - Fazer o item colidir com o player e dar o power para ele
+	20.6 - Destruir o item ao colidir com o player

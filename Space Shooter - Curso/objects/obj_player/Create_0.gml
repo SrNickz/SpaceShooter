@@ -1,4 +1,10 @@
-vel = 5
+// Velocidade - .05		- Limite = 10 // 45%
+// Espera Tiro - 10%	- Limite = 20 // 45%
+// Level Tiro - 1		- Limite = 5  // 10%
+
+
+
+vel = 5;
 espera_tiro = room_speed / obj_controller.level;
 level_tiro = 1;
 
@@ -69,3 +75,33 @@ tiro4 = function() {
 			direcao += 15;
 	}
 }	
+
+///@method upgrade(chance)
+upgrade = function(_chance) 
+{
+	if (_chance >= 90)
+	{
+		// Aumentando o level do tiro SE o level do tiro for menor do que 5
+		if (level_tiro < 5) 
+		{
+		level_tiro++;
+		}
+	}
+	else if (_chance >= 45)
+	{
+		// Checando se a espera do tiro é maior do que 20 
+		if (espera_tiro > 20)
+		{
+			// Diminuindo a espera do tiro em 10%
+			espera_tiro *= 0.9
+	}
+	else
+	{
+		// Aumentando a vel em .5 se ela for menor do que 10
+		if (vel < 10)
+		{
+			vel += .5	
+		}
+	}
+	}
+}
