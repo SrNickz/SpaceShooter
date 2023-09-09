@@ -46,7 +46,6 @@ atirando = function()	{
 		}
 	}
 
-
 // Método para criar o tiro 2
 tiro2 = function() {
 		var y_tiro = y - sprite_height / 2 - 30;
@@ -94,6 +93,7 @@ upgrade = function(_chance)
 		{
 			// Diminuindo a espera do tiro em 10%
 			espera_tiro *= 0.9
+		}
 	}
 	else
 	{
@@ -102,6 +102,5 @@ upgrade = function(_chance)
 		{
 			vel += .5	
 		}
-	}
 	}
 }

@@ -16,18 +16,19 @@ ganha_pontos = function(_pontos) {
 	pontos += _pontos;	
 	
 	// Ganhando level SE os pontos forem maiores do que o proximo nivel
-	if (pontos >= proximo_level) {
-		level += 1;
+	if (pontos > proximo_level) {
+		level ++;
 		proximo_level *= 2;
 	}
 }
 
 // Criando o método para criar inimigos
 
-cria_inimigos = function() {
-	var _xx, _yy
-	var inimigo = obj_inimigopolvo
-	var chance = random_range(0, level)
+
+function cria_inimigos() {
+	var _xx, _yy;
+	var inimigo = obj_inimigopolvo;
+	var chance = random_range(0, level);
 	
 	_xx = random_range(110, 1810);
 	_yy = random_range(-1000, -110);
