@@ -83,7 +83,7 @@ upgrade = function(_chance)
 		// Aumentando o level do tiro SE o level do tiro for menor do que 5
 		if (level_tiro < 5) 
 		{
-		level_tiro++;
+			level_tiro++;
 		}
 	}
 	else if (_chance >= 45)

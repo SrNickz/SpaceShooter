@@ -143,3 +143,11 @@
 	20.6 - Destruir o item ao colidir com o player
 	20.7 - Criando o impacto do tiro ao ser destruido
 	20.8 - Fazer os inimigos ter uma chance de dropar o item
+	20.9 - Fazendo o power up se mover
+	20.10 - Dando um efeito a mais no power up - Feito 
+		20.10.1 - Escolhendo uma cor para ele - Feito
+	20.11 - Impedindo que o tiro saia da tela - Feito
+	20.12 - Fazendo o power up sumir sozinho - Feito
+	
+21 - Escudo do player
+	21.1 - 
