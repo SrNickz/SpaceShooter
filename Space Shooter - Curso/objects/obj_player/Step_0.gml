@@ -1,10 +1,20 @@
-var _right, _up, _left, _down
+
+
+var _right, _up, _left, _down, _shield
 
 _right	= keyboard_check(ord("D"));
 _left	= keyboard_check(ord("A"));
 _up		= keyboard_check(ord("W"));
 _down	= keyboard_check(ord("S"));
+_shield = keyboard_check_pressed(ord("E"));
 
+// Criando o escudo 
+
+if (_shield) {
+	var _escudo = instance_create_layer(x, y, "Escudo", obj_escudo);
+	// Eu sou seu alvo
+   	_escudo.alvo = id;
+}
 
 // Movimentação
 x += (_right - _left) * vel;
@@ -12,6 +22,7 @@ y += (_down - _up) * vel;
 
 // Convertendo em um método
 // Atirando
+
 
 atirando()
 
@@ -41,6 +52,9 @@ if (keyboard_check_pressed(vk_right)) {
 	espera_tiro *= 1.1;
 }	
 
-show_debug_message(level_tiro);
-show_debug_message(espera_tiro);
-show_debug_message(vel);
+
+
+//show_debug_message(level_tiro);
+//show_debug_message(espera_tiro);
+//show_debug_message(vel);
+show_debug_message(vida);

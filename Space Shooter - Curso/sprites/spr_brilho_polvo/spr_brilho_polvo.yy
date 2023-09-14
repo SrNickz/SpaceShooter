@@ -26,7 +26,7 @@
   "origin": 4,
   "parent": {
     "name": "Efeitos",
-    "path": "folders/Sprites/Efeitos.yy",
+    "path": "folders/Efeitos.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

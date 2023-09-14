@@ -8,6 +8,9 @@ vel = 5;
 espera_tiro = room_speed / obj_controller.level;
 level_tiro = 1;
 
+// Sistema de vida
+vida = 3;
+
 // Criando um método
 
 atirando = function()	{
@@ -104,3 +107,17 @@ upgrade = function(_chance)
 		}
 	}
 }
+
+// Método para perder vida
+
+///@method perde_vida();
+
+function perde_vida() {
+	if (vida > 1) {
+		vida -= 1;	
+	}
+	else {
+		instance_destroy()	
+	}
+}
+	

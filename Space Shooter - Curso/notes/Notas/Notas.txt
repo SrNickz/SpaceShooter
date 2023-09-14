@@ -150,4 +150,32 @@
 	20.12 - Fazendo o power up sumir sozinho - Feito
 	
 21 - Escudo do player
-	21.1 - 
+	21.1 - Importar a sprite - Feito
+	21.2 - Criando o obj - Feito
+	21.3 - Fazendo o player criar o escudo ao apertar a letra E - Feito
+	21.4 - Criar uma layer pro escudo - Feito
+	21.5 - Fazendo o escudo ficar na mesma posição que o player - Feito
+		21.5.1 - Corrigindo o delay no movimento - Feito
+	21.6 - Destruindo os tiros e os inimigos com o escudo - Feito
+	21.7 - Deixar o escudo maior - Feito
+	21.8 - Animando o escudo - Feito
+		21.8.1 - Parar a animação no final dela - Feito
+		21.8.2 - Depois de um tempo, voltar a sprite - 
+			21.8.2.1 - Ao final da animação, ativar um alarm em 2 segundos - Feito
+			21.8.2.2 - Ao executar o alarm, ele deve voltar 1 sprite - Feito
+			21.8.2.3 - Se eu chegar no image_index 0 eu me destruo no proximo alarme - Feito
+	21.9 - Melhorando o efeito no escudo 
+		21.9.1 - Dando uma transparência ao escudo - Feito
+		21.9.2 - Dando o blendmode para ele - Feito
+	
+22 - Ajustes gerais
+	22.1 - Ajustando as mascaras de colisão - Feito
+	22.2 - Dando colisão entre o player e os inimigos - Feito
+
+23 - Fazendo o player morrer
+	23.1 - Dando vida para o player - Feito
+	23.2 - Criando o método para perder vida - Feito
+	23.3 - Fazendo ele morrer se a vida for menor ou igual a 0 - Feito
+	23.4 - Fazer o player criar a explosão - Feito
+	23.5 - Exibindo a vida do player
+	 

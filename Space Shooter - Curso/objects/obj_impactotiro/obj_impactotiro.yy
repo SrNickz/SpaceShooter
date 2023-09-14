@@ -11,7 +11,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Efeitos",
-    "path": "folders/Sprites/Efeitos.yy",
+    "path": "folders/Efeitos.yy",
   },
   "parentObjectId": null,
   "persistent": false,
