@@ -7,6 +7,9 @@
 vel = 5;
 espera_tiro = room_speed / obj_controller.level;
 level_tiro = 1;
+qtd_escudos = 3;
+cores_vidas = noone;
+
 
 // Sistema de vida
 vida = 3;
@@ -119,5 +122,20 @@ function perde_vida() {
 	else {
 		instance_destroy()	
 	}
+}
+	
+// Método pra mudar a cor das vidas
+///@method _cores_da_vida();
+function _cores_da_vida() {
+	if (vida == 3) {
+		cores_vidas = c_white;	
+	}
+	else if (vida == 2) {
+		cores_vidas = c_orange;	
+	}
+	else {
+		cores_vidas = c_red;	
+	}
+	
 }
 	

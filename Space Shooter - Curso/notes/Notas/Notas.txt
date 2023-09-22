@@ -167,15 +167,28 @@
 	21.9 - Melhorando o efeito no escudo 
 		21.9.1 - Dando uma transparência ao escudo - Feito
 		21.9.2 - Dando o blendmode para ele - Feito
+	21.10 - Limitando a quantidade de escudos - Feito
+		21.10.1 - Criar a quantidade da variavel de escudos - Feito
+	21.11 - Mostrar a quantidade de escudos
 	
 22 - Ajustes gerais
 	22.1 - Ajustando as mascaras de colisão - Feito
 	22.2 - Dando colisão entre o player e os inimigos - Feito
+	22.3 - Ajustando a transparencia do power up - Feito
+	22.4 - Melhorando a dispersão dos inimigos
 
-23 - Fazendo o player morrer
+23 - Fazendo o player morrer - Feito
 	23.1 - Dando vida para o player - Feito
 	23.2 - Criando o método para perder vida - Feito
 	23.3 - Fazendo ele morrer se a vida for menor ou igual a 0 - Feito
 	23.4 - Fazer o player criar a explosão - Feito
-	23.5 - Exibindo a vida do player
-	 
+	23.5 - Exibindo a vida do player - Feito
+	23.6 - Fazer o player perder vida ao encostar no inimigo - Feito
+	23.7 - Criando uma tela de game over, quando o jogador morrer
+		23.7.1 - Criando a sequencia de game over - Feito
+		23.7.2 - Instanciando ela quando o player morrer
+			23.7.2.1 - Checando se o player existe pelo obj control - Feito
+			23.7.2.2 - Se ele não eistir eu crio a sequence - Feito
+			23.7.2.3 - Reiniciando ao apertar enter - Feito
+
+24 - Screenshake!

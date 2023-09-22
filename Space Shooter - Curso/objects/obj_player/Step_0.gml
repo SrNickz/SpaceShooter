@@ -8,12 +8,13 @@ _up		= keyboard_check(ord("W"));
 _down	= keyboard_check(ord("S"));
 _shield = keyboard_check_pressed(ord("E"));
 
-// Criando o escudo 
+// Criando o escudo se eu apertei E e tenho mais que 0 escudos
 
-if (_shield) {
+if (_shield && qtd_escudos > 0) {
 	var _escudo = instance_create_layer(x, y, "Escudo", obj_escudo);
 	// Eu sou seu alvo
    	_escudo.alvo = id;
+	qtd_escudos -= 1;
 }
 
 // Movimentação
@@ -51,6 +52,7 @@ if (keyboard_check_pressed(vk_down)) {
 if (keyboard_check_pressed(vk_right)) {
 	espera_tiro *= 1.1;
 }	
+
 
 
 
