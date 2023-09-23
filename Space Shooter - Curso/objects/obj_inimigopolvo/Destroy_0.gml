@@ -5,5 +5,5 @@ if (instance_exists(obj_controller)) {
 	obj_controller.ganha_pontos(pontos);
 }
 
-
+screenshake(10);
 

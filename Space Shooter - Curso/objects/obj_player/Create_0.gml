@@ -118,9 +118,12 @@ upgrade = function(_chance)
 function perde_vida() {
 	if (vida > 1) {
 		vida -= 1;	
+		screenshake(50);
 	}
 	else {
+		screenshake(80);
 		instance_destroy()	
+		
 	}
 }
 	

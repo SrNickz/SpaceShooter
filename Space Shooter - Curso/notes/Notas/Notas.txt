@@ -192,3 +192,13 @@
 			23.7.2.3 - Reiniciando ao apertar enter - Feito
 
 24 - Screenshake!
+	24.1 - Criar um objeto para fazer o screenshake - Feito
+	24.2 - Fazer a tela tremer - Feito
+	24.3 - Enfraquecendo o screenshake
+	24.4 - Destruindo o screenshake depois de um tempo - Feito
+	24.5 - Garantindo que ao se destruir a posição do viewport volte ao lugar - Feito
+	24.6 - Criar um screenshake ao destruir um inimigo - Feito
+	24.7 - Criando o screenshake do player - Feito
+	
+25 - Ajustes Gerais 2.0
+	25.1 - Randomizando o jogo - 
