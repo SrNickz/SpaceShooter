@@ -31,6 +31,7 @@
     {"name":"spr_tiro_player","order":1,"path":"sprites/spr_tiro_player/spr_tiro_player.yy",},
     {"name":"obj_impactotiro","order":2,"path":"objects/obj_impactotiro/obj_impactotiro.yy",},
     {"name":"spr_brilho_polvo","order":1,"path":"sprites/spr_brilho_polvo/spr_brilho_polvo.yy",},
+    {"name":"spr_vida","order":6,"path":"sprites/spr_vida/spr_vida.yy",},
     {"name":"spr_brilho_particula","order":6,"path":"sprites/spr_brilho_particula/spr_brilho_particula.yy",},
     {"name":"obj_tiro_player","order":1,"path":"objects/obj_tiro_player/obj_tiro_player.yy",},
     {"name":"spr_explosao","order":2,"path":"sprites/spr_explosao/spr_explosao.yy",},

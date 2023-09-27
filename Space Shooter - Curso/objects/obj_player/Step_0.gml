@@ -53,8 +53,13 @@ if (keyboard_check_pressed(vk_right)) {
 	espera_tiro *= 1.1;
 }	
 
+//if (x <= 64) x = 64;
+//if (x >= 1856) x = 1856;
+//if (y <= 64) y = 64;
+//if (y >= 1016) y = 1016;
 
-
+x = clamp(x, 64, 1856);
+y = clamp(y, 64, 1024);
 
 //show_debug_message(level_tiro);
 //show_debug_message(espera_tiro);

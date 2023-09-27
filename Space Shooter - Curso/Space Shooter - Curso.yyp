@@ -51,6 +51,7 @@
     {"id":{"name":"obj_impactotiro","path":"objects/obj_impactotiro/obj_impactotiro.yy",},},
     {"id":{"name":"spr_brilho_polvo","path":"sprites/spr_brilho_polvo/spr_brilho_polvo.yy",},},
     {"id":{"name":"Notas","path":"notes/Notas/Notas.yy",},},
+    {"id":{"name":"spr_vida","path":"sprites/spr_vida/spr_vida.yy",},},
     {"id":{"name":"spr_brilho_particula","path":"sprites/spr_brilho_particula/spr_brilho_particula.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"obj_tiro_player","path":"objects/obj_tiro_player/obj_tiro_player.yy",},},

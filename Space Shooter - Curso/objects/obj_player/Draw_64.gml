@@ -4,13 +4,17 @@
 //var _altura_gui = display_get_gui_height()
 var _x_da_gui = 40;
 _cores_da_vida();
+velocidade_vida();
 
 
-// Desenhando naves para serem as vidas
+
+// Desenhando vidas para serem as vidas
+gpu_set_blendmode(bm_add);
 repeat(vida) {
-	draw_sprite_ext(spr_player, 0, _x_da_gui, 40, image_xscale * .3, image_yscale * .3, image_angle, cores_vidas, 1);
-	_x_da_gui += 40;
+	draw_sprite_ext(spr_vida, image_index, _x_da_gui, 40, image_xscale * .6, image_yscale * .6, image_angle, cores_vidas, 1);
+	_x_da_gui += 50;
 }
+gpu_set_blendmode(bm_normal);
 
 // Desenhando escudos para representar a quantidade de escudos
 _x_da_gui = 40;

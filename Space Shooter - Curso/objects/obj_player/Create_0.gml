@@ -141,4 +141,20 @@ function _cores_da_vida() {
 	}
 	
 }
+
+///@method velocidade_vida();
+function velocidade_vida() {
+	if (vida == 3)		{
+		image_speed = .6;
+	}
+	else if (vida == 2) {
+		image_speed = 1.2;
+	}
+	else {
+		image_speed = 1.7;	
+	}
+	
+}
+
+
 	

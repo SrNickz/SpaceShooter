@@ -201,4 +201,7 @@
 	24.7 - Criando o screenshake do player - Feito
 	
 25 - Ajustes Gerais 2.0
-	25.1 - Randomizando o jogo - 
+	25.1 - Randomizando o jogo - Feito
+	25.2 - Impedindo o player de sair da tela - Feito
+	25.3 - Inimigo droppar item dentro da room - Feito
+	25.4 - Melhorando o sistema de ganhar level

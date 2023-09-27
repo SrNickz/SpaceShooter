@@ -7,11 +7,11 @@ alarm[0] = room_speed;
 // Iniciando o sistema de pontos
 pontos = 0; 
 
-// iniciando o sistema de leveis
+// iniciando o sistema de leveis 
 level = 1;
 
 // Quantos pontos eu preciso para o proximo level
-proximo_level = 20;
+proximo_level = 100;
 // Criando um metodo para ganhar pontos 
 
 // Variável de controle para o gameover
