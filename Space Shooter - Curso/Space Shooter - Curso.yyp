@@ -67,7 +67,7 @@
     {"id":{"name":"spr_brilho_tiro_1","path":"sprites/spr_brilho_tiro_1/spr_brilho_tiro_1.yy",},},
     {"id":{"name":"obj_tiropolvo","path":"objects/obj_tiropolvo/obj_tiropolvo.yy",},},
     {"id":{"name":"spr_fundo2","path":"sprites/spr_fundo2/spr_fundo2.yy",},},
-    {"id":{"name":"screenshake","path":"scripts/screenshake/screenshake.yy",},},
+    {"id":{"name":"Functions","path":"scripts/Functions/Functions.yy",},},
     {"id":{"name":"sq_gameover","path":"sequences/sq_gameover/sq_gameover.yy",},},
     {"id":{"name":"spr_inimigonave","path":"sprites/spr_inimigonave/spr_inimigonave.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},

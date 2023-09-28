@@ -84,25 +84,32 @@ tiro4 = function() {
 ///@method upgrade(chance)
 upgrade = function(_chance) 
 {
-	if (_chance >= 90)
+	if (_chance >= 90) // LEVEL TIRO
 	{
 		// Aumentando o level do tiro SE o level do tiro for menor do que 5
+		
 		if (level_tiro < 5) 
 		{
 			level_tiro++;
 		}
+		else {
+			ganhando_pontos(100);
+		}
 	}
-	else if (_chance >= 45)
+	else if (_chance >= 45) // ESPERA TIRO
 	{
 		// Checando se a espera do tiro é maior do que 20 
-		if (espera_tiro > 20)
+		if (espera_tiro > 15)
 		{
 			// Diminuindo a espera do tiro em 10%
 			espera_tiro *= 0.9
 		}
+		else {
+			ganhando_pontos(10);	
+		}
 	}
-	else
-	{
+	else // VELOCIDADE PLAYER
+	{ 
 		// Aumentando a vel em .5 se ela for menor do que 10
 		if (vel < 10)
 		{

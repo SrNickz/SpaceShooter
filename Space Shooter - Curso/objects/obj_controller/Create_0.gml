@@ -19,12 +19,15 @@ gameover_seq = noone;
 
 ///@method ganha_pontos(pontos)
 ganha_pontos = function(_pontos) {
-	pontos += _pontos;	
+	pontos += _pontos * level;	
 	
 	// Ganhando level SE os pontos forem maiores do que o proximo nivel
 	if (pontos > proximo_level) {
 		level ++;
+		// Dobrando para o proximo level
 		proximo_level *= 2;
+		
+		
 	}
 }
 
