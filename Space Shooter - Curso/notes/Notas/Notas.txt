@@ -18,7 +18,7 @@
 	3.6 - Destruir o tiro quando ele sair da room	
 
 4 - Criando o Inimigo
-	4.1 - Importar a sprite deler
+	4.1 - Importar a sprite dele
 	4.2 - Criar o objeto
 	4.3 - Fazendo ele ir para baixo
 	
@@ -205,4 +205,25 @@
 	25.2 - Impedindo o player de sair da tela - Feito
 	25.3 - Inimigo droppar item dentro da room - Feito
 	25.4 - Melhorando o sistema de ganhar level - Feito
-	25.6 - Pegar pontos caso o player pegue o power up do tiro e esteja no nível maximo
+	25.6 - Pegar pontos caso o player pegue o power up do tiro e esteja no nível maximo - Feito
+	
+26 - BOSS
+
+	26.1 - Importando a sprite - Feito
+	26.2 - Criando o objeto - Feito
+	26.3 - Definindo os estados do boss - Feito
+	26.4 - Criando o primeiro estado do boss (criar o tiro 2 enquanto fica parado) - Feito
+		26.4.1 - Fazendo o boss criar o tiro 2 do canhão central - Feito
+		26.4.2 - Criando um intervalo entre os tiros do boss - Feito
+		26.4.3 - Criando um método do tiro 1 - Feito
+		26.4.4 - Fazendo ele trocar de estado depois de um tempo - Feito
+	26.5 - Criando o segundo estado do boss - 
+		26.5.1 - Fazendo o boss dar o tiro 1 dos canhões menores ao mesmo tempo - Feito
+		26.5.2 - Criando o intervalo entre os tiros - Feito
+		26.5.3 - Fazendo o boss se movimentar pelos lados - Feito
+	
+	Varios estados do boss
+	Fase invulnerável com recuperação de vida 
+	(Fase cria minions agressivos)
+	
+27 - Animação chegada do boss

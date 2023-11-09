@@ -2,18 +2,16 @@
 // Espera Tiro - 10%	- Limite = 20 // 45%
 // Level Tiro - 1		- Limite = 5  // 10%
 
-
-
 vel = 5;
-espera_tiro = room_speed / obj_controller.level;
+espera_tiro = room_speed / 3;
 level_tiro = 1;
 qtd_escudos = 3;
 cores_vidas = noone;
 
-
 // Sistema de vida
 vida = 3;
 
+#region Sistema de tiros
 // Criando um método
 
 atirando = function()	{
@@ -81,6 +79,8 @@ tiro4 = function() {
 	}
 }	
 
+#endregion
+
 ///@method upgrade(chance)
 upgrade = function(_chance) 
 {
@@ -118,10 +118,11 @@ upgrade = function(_chance)
 	}
 }
 
+#region Sistema de vidas
+
 // Método para perder vida
 
 ///@method perde_vida();
-
 function perde_vida() {
 	if (vida > 1) {
 		vida -= 1;	
@@ -130,7 +131,6 @@ function perde_vida() {
 	else {
 		screenshake(80);
 		instance_destroy()	
-		
 	}
 }
 	
@@ -163,5 +163,5 @@ function velocidade_vida() {
 	
 }
 
-
+#endregion
 	

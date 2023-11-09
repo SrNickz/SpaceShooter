@@ -1,4 +1,4 @@
-
+#region Movimentação/Atirando
 
 var _right, _up, _left, _down, _shield
 
@@ -24,9 +24,11 @@ y += (_down - _up) * vel;
 // Convertendo em um método
 // Atirando
 
-
 atirando()
 
+#endregion
+
+#region Debug
 // Fazer que o level do tiro suba sempre que eu apertar a seta para cima
 // Apenas se o level do tiro for menor que cinco
 
@@ -52,16 +54,18 @@ if (keyboard_check_pressed(vk_down)) {
 if (keyboard_check_pressed(vk_right)) {
 	espera_tiro *= 1.1;
 }	
+#endregion
 
 //if (x <= 64) x = 64;
 //if (x >= 1856) x = 1856;
 //if (y <= 64) y = 64;
 //if (y >= 1016) y = 1016;
 
+// Não me deixa sair da tela
 x = clamp(x, 64, 1856);
 y = clamp(y, 64, 1024);
 
 //show_debug_message(level_tiro);
 //show_debug_message(espera_tiro);
 //show_debug_message(vel);
-show_debug_message(vida);
+//show_debug_message(vida);

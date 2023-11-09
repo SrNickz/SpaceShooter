@@ -32,8 +32,6 @@ ganha_pontos = function(_pontos) {
 }
 
 // Criando o método para criar inimigos
-
-
 function cria_inimigos() {
 	var _xx, _yy;
 	var inimigo = obj_inimigopolvo;

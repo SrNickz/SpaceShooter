@@ -5,10 +5,7 @@ direction = random_range(0, 359);
 
 brilho	= spr_brilho_polvo;
 
-// Iniciando o alarme
-
-
-
+#region Cores do powerUp
 
 if (chance >= 90) {
 	cor = c_lime;	
@@ -20,6 +17,6 @@ else {
 	cor = c_blue;	
 }
 
-
+#endregion
 
 
