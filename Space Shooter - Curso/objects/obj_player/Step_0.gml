@@ -11,10 +11,7 @@ _shield = keyboard_check_pressed(ord("E"));
 // Criando o escudo se eu apertei "E" e tenho mais que 0 escudos e o escudo atual não existe
 
 if (_shield && qtd_escudos > 0 && !instance_exists(obj_escudo)) {
-	var _escudo = instance_create_layer(x, y, "Escudo", obj_escudo);
-	// Eu sou seu alvo
-   	_escudo.alvo = id;
-	qtd_escudos -= 1;
+	cria_escudo();
 }
 
 // Movimentação
@@ -47,7 +44,7 @@ if (keyboard_check_pressed(vk_down)) {
 }
 
 // Diminuir a espera do tiro se eu apertei a seta para a esquerda (10%) -> Multiplicar por 0.9 (90%)
-	if (keyboard_check_pressed(vk_left) && espera_tiro > 20) {
+	if (keyboard_check_pressed(vk_left) && espera_tiro > 15) {
 		espera_tiro *= .9;
 	}	
 // E aumentar a espera se apertar a seta pra direita (10%) Multiplicar por 1.1 (110%)

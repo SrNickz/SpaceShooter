@@ -7,11 +7,12 @@ espera_tiro = room_speed / 3;
 level_tiro = 1;
 qtd_escudos = 3;
 cores_vidas = noone;
+meu_escudo = noone;
 
 // Sistema de vida
 vida = 3;
 
-#region Sistema de tiros
+#region Sistema de tiros / Escudo
 // Criando um método
 
 atirando = function()	{
@@ -78,6 +79,15 @@ tiro4 = function() {
 			direcao += 15;
 	}
 }	
+	
+function cria_escudo() 
+{
+	var _escudo = instance_create_layer(x, y, "Escudo", obj_escudo);
+	// Eu sou seu alvo
+   	_escudo.alvo = id;
+	qtd_escudos -= 1;
+	meu_escudo = _escudo;	
+}
 
 #endregion
 
@@ -124,13 +134,15 @@ upgrade = function(_chance)
 
 ///@method perde_vida();
 function perde_vida() {
-	if (vida > 1) {
-		vida -= 1;	
-		screenshake(50);
-	}
-	else {
-		screenshake(80);
-		instance_destroy()	
+	if (!meu_escudo) {
+		if (vida > 1) {
+			vida -= 1;	
+			screenshake(50);
+		}
+		else {
+			screenshake(80);
+			instance_destroy()	
+		}
 	}
 }
 	

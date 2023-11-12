@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_boss_surgindo",
+  "name": "spr_boss_escuro",
   "bbox_bottom": 308,
   "bbox_left": 0,
   "bbox_right": 563,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_boss_surgindo",
+    "name": "spr_boss_escuro",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e2970903-e4cb-4ba1-8a41-f7eaf5b94899","path":"sprites/spr_boss_surgindo/spr_boss_surgindo.yy",},},},"Disabled":false,"id":"efde1bd0-e72c-4fdd-b796-670c9f72f220","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e2970903-e4cb-4ba1-8a41-f7eaf5b94899","path":"sprites/spr_boss_escuro/spr_boss_escuro.yy",},},},"Disabled":false,"id":"efde1bd0-e72c-4fdd-b796-670c9f72f220","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -4,7 +4,7 @@
 
 #region Estados do boss
 
-if (sprite_index = spr_boss_combate) 
+if (sprite_index = spr_boss_combate || sprite_index = spr_boss_escuro) 
 {
 	if(estado_atual == "estado 1") {
 		// Iniciando o estado 1
@@ -19,9 +19,14 @@ if (sprite_index = spr_boss_combate)
 		estado_3();
 	}
 	else if(estado_atual == "estado 4") {
-		// Códigos do estado 4	
+		// Códigos do estado 4
 		estado_4();
 	}
+}
+
+if (keyboard_check(vk_enter))
+{
+	vida_atual -= 100;	
 }
 #endregion
 

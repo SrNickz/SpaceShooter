@@ -176,7 +176,9 @@
 	22.2 - Dando colisão entre o player e os inimigos - Feito
 	22.3 - Ajustando a transparencia do power up - Feito
 	22.4 - Melhorando a dispersão dos inimigos
-
+	22.5 - Impedindo que o player crie mais de um escudo por vez - Feito
+	22.6 - Impedindo que o player leve dano quando estiver com o escudo - Feito
+	
 23 - Fazendo o player morrer - Feito
 	23.1 - Dando vida para o player - Feito
 	23.2 - Criando o método para perder vida - Feito
@@ -217,11 +219,24 @@
 		26.4.2 - Criando um intervalo entre os tiros do boss - Feito
 		26.4.3 - Criando um método do tiro 1 - Feito
 		26.4.4 - Fazendo ele trocar de estado depois de um tempo - Feito
-	26.5 - Criando o segundo estado do boss - 
+	26.5 - Criando o segundo estado do boss - Feito
 		26.5.1 - Fazendo o boss dar o tiro 1 dos canhões menores ao mesmo tempo - Feito
 		26.5.2 - Criando o intervalo entre os tiros - Feito
 		26.5.3 - Fazendo o boss se movimentar pelos lados - Feito
-	
+	26.6 - Criando o terceiro estado do boss - 
+		26.6.1 - Criando o tiro 2 do canhão central no dobro do tempo da espera - Feito
+		26.6.2 - Criando o tiro 1 dos canhões menores, nas extremidades - Feito
+		26.6.3 - Criando o tiro 1 e o tiro 2 em tempos diferentes - Feito
+		26.6.4 - Criando o método do tiro 3 - Feito
+	26.7 - Criando a vida do boss - Feito
+		26.7.1 - Iniciando a variável vida - Feito
+		26.7.2 - Exibindo a barra de vida do boss - Feito
+		26.7.3 - Fazendo o boss levar tiro - Feito
+	26.8 - Criando o quarto estado do boss - 
+		26.8.1 - Importando a sprite
+		26.8.2 - Fazendo com que o boss tenha a sprite escura no 4 estado - Feito
+		26.8.3 - Fazendo o boss não levar dano no 4 estado - Feito
+		
 	Varios estados do boss
 	Fase invulnerável com recuperação de vida 
 	(Fase cria minions agressivos)

@@ -4,6 +4,16 @@
 //	image_yscale -= .2;	
 	
 //}
+
+if (instance_exists(obj_boss) && obj_boss.estado_atual == "estado 2")
+{
+	forca_da_onda = 7;
+}
+else
+{
+	forca_da_onda = 35;	
+}
+
 x = xstart + (sin(current_time / 100) * forca_da_onda);
 
 y += velv;
