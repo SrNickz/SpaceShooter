@@ -30,6 +30,15 @@ if (keyboard_check(vk_enter))
 }
 #endregion
 
+if (estado_atual == "estado 4") 
+{
+	if(sprite_index != spr_boss_escuro) sprite_index = spr_boss_escuro;	
+}
+else
+{
+	if(sprite_index != spr_boss_combate) sprite_index = spr_boss_combate;
+}
+
 // Debug do estado atual
 show_debug_message(estado_atual);
 show_debug_message(espera_tiro_boss);

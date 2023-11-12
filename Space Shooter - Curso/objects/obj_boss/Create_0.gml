@@ -44,7 +44,7 @@ function tiro_01(_posx)
 
 function estado_1() 
 {
-	pode_levar_dano = true;
+	//if(sprite_index != spr_boss_combate) sprite_index = spr_boss_combate;
 	y = y_inicial + (sin(current_time / 500) * forca_da_onda);
 	
 	// Se o boss estiver em qualquer posição longe do meio, ele volta para o meio suavemente
@@ -68,7 +68,7 @@ function estado_1()
 ///@method estado_2()
 function estado_2()
 {
-	pode_levar_dano = true;
+	//if(sprite_index != spr_boss_combate) sprite_index = spr_boss_combate;
 	// Movimento de onda - seno
 	y = y_inicial + (sin(current_time / 500) * forca_da_onda);
 
@@ -96,7 +96,7 @@ function estado_2()
 ///@method estado_3()
 function estado_3()
 {
-	pode_levar_dano = true;
+	//if(sprite_index != spr_boss_combate) sprite_index = spr_boss_combate;
 	y = y_inicial + (sin(current_time / 500) * forca_da_onda);
 	
 	espera_tiro_boss -= 1;
@@ -118,10 +118,8 @@ function estado_3()
 ///@method estado_4()
 function estado_4()
 {
-	pode_levar_dano = false;
-	if(sprite_index != spr_boss_escuro) sprite_index = spr_boss_escuro;
+	//if(sprite_index != spr_boss_escuro) sprite_index = spr_boss_escuro;
 	y = ystart + (sin(current_time / 500) * forca_da_onda);
-	
 }	
 
 #endregion
