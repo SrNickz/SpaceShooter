@@ -4,7 +4,7 @@
 
 #region Estados do boss
 
-if (sprite_index = spr_boss_combate || sprite_index = spr_boss_escuro) 
+if (sprite_index == spr_boss_combate || sprite_index == spr_boss_escuro) 
 {
 	if(estado_atual == "estado 1") {
 		// Iniciando o estado 1

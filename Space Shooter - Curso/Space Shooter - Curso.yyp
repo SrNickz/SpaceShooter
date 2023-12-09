@@ -53,7 +53,6 @@
     {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},},
     {"id":{"name":"obj_impactotiro","path":"objects/obj_impactotiro/obj_impactotiro.yy",},},
     {"id":{"name":"spr_brilho_polvo","path":"sprites/spr_brilho_polvo/spr_brilho_polvo.yy",},},
-    {"id":{"name":"Notas","path":"notes/Notas/Notas.yy",},},
     {"id":{"name":"obj_tiro_minion","path":"objects/obj_tiro_minion/obj_tiro_minion.yy",},},
     {"id":{"name":"spr_vida","path":"sprites/spr_vida/spr_vida.yy",},},
     {"id":{"name":"spr_brilho_particula","path":"sprites/spr_brilho_particula/spr_brilho_particula.yy",},},
