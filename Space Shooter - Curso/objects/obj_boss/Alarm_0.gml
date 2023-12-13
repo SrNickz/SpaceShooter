@@ -1,4 +1,6 @@
-estado_atual = choose("estado 1", "estado 2", "estado 3");
+muda_estado();
+// Posso criar minions ao trocar de estado
+cria_minions = true;
 
 alarm[0] = room_speed * 5;
 

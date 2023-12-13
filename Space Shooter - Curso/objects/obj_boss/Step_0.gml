@@ -22,11 +22,11 @@ if (sprite_index == spr_boss_combate || sprite_index == spr_boss_escuro)
 		// Códigos do estado 4
 		estado_4();
 	}
-}
+} 
 
 if (keyboard_check(vk_enter))
 {
-	vida_atual -= 100;	
+	vida_atual -= 50;	
 }
 #endregion
 

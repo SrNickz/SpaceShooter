@@ -252,7 +252,15 @@
 			26.8.15.2 - Fazendo o valor o aumento escala subir 
 		26.8.16 - Alterando os efeitos no minion - Feito
 			26.8.16.1 - Fazendo a escala aumentar e diminuir - Feito
-		26.8.17 - Fazendo o boss criar os minions no estado 4
+		26.8.17 - Fazendo o boss criar os minions no estado 4 - Feito 
+			26.8.17.1 - Criando os minions na posição correta - Feito
+			26.8.17.2 - Fazendo com que o minion cheque se foi criado em cima de outro minion, se sim, ele muda o y dele em -128 - Feito
+			26.8.17.3 - Fazendo com que o boss crie os minions apenas uma vez - Feito
+			26.8.17.4 - Fazendo ele poder criar minion ao sair do estado quatro - Feito
+			26.8.17.5 - Fazendo com que ele possa chegar ao estado 4 for menor ou igual a metade da vida total - Feito
+		26.8.18 - Criar o método do estado 4 - Feito
+	26.9 - Criar o método de troca de estado - Feito
+		
 	Varios estados do boss
 	Fase invulnerável com recuperação de vida 
 	(Fase cria minions agressivos)

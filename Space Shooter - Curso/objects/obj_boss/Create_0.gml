@@ -9,11 +9,13 @@
 // Estado especial 1 - Invencível enquando cria 2 minions para recuperar vida
 // Estado especias 2 - Criar 
 //randomize();
-estado_atual = "estado 4";
+estado_atual = choose("estado 1", "estado 2", "estado 3");
 delay_tiro = room_speed / 2;
 espera_tiro_boss = 0;
 velh = 3
 pode_levar_dano = true;
+cria_minions = true;
+
 
 // Iniciando o sistema de vida
 vida_max = 2000;
@@ -41,10 +43,22 @@ function tiro_01(_posx)
 #endregion
 
 #region Métodos - Estados do Boss
+function muda_estado()
+{
+	// Vou escolher outro estado SE minha vida não for menor que a metade 
+	if(vida_atual > vida_max / 2)
+	{
+		estado_atual = choose("estado 1", "estado 2", "estado 3");
+	}
+	else
+	{
+		estado_atual = choose("estado 1", "estado 2", "estado 3","estado 4");
+	}	
+}
 
 function estado_1() 
 {
-	//if(sprite_index != spr_boss_combate) sprite_index = spr_boss_combate;
+	// Movimento de "Onda"
 	y = y_inicial + (sin(current_time / 500) * forca_da_onda);
 	
 	// Se o boss estiver em qualquer posição longe do meio, ele volta para o meio suavemente
@@ -120,8 +134,26 @@ function estado_4()
 {
 	//if(sprite_index != spr_boss_escuro) sprite_index = spr_boss_escuro;
 	y = ystart + (sin(current_time / 500) * forca_da_onda);
-}	
-
+	
+	// Se o boss estiver em qualquer posição longe do meio, ele volta para o meio suavemente
+	if (x != 960)
+	{
+		x = lerp(x, 960, .03);	
+	}
+	
+	// Criando os minion SE eu posso criar minions
+	if(cria_minions)
+	{
+		// Criando o minion da direita
+		var _minion = instance_create_layer(1760, 736, "Inimigos", obj_minion);
+		_minion.image_angle = 270;
+		
+		// Criando o minion da esquerda
+		_minion = instance_create_layer(160, 736, "Inimigos", obj_minion);
+		_minion.image_angle = 90;
+		cria_minions = false;
+	}	
+}
 #endregion
 
 // Iniciando o alarm de troca de estados

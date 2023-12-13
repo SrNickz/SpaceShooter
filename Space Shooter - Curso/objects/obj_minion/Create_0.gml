@@ -7,7 +7,11 @@ escala = 1;
 aumento_escala = 0.01;
 alarm_rodou = 0;
 
-
+// Checando se eu colidi com outro minion
+if(place_meeting(x, y, obj_minion))
+{
+		y -= 128;
+}
 
 
 
