@@ -19,7 +19,7 @@ cria_minions = true;
 
 // Iniciando o sistema de vida
 vida_max = 2000;
-vida_atual = vida_max;
+vida_atual = 1;
 
 // Movimento de onda - seno
 y_inicial = y;

@@ -40,7 +40,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.0.121",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"spr_gameover","path":"sprites/spr_gameover/spr_gameover.yy",},},
@@ -49,6 +49,7 @@
     {"id":{"name":"spr_fundo3","path":"sprites/spr_fundo3/spr_fundo3.yy",},},
     {"id":{"name":"spr_brilho_olho","path":"sprites/spr_brilho_olho/spr_brilho_olho.yy",},},
     {"id":{"name":"obj_inimigonave","path":"objects/obj_inimigonave/obj_inimigonave.yy",},},
+    {"id":{"name":"sq_boss_morte","path":"sequences/sq_boss_morte/sq_boss_morte.yy",},},
     {"id":{"name":"spr_tiro_player","path":"sprites/spr_tiro_player/spr_tiro_player.yy",},},
     {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},},
     {"id":{"name":"obj_impactotiro","path":"objects/obj_impactotiro/obj_impactotiro.yy",},},
@@ -60,6 +61,7 @@
     {"id":{"name":"obj_tiro_player","path":"objects/obj_tiro_player/obj_tiro_player.yy",},},
     {"id":{"name":"spr_explosao","path":"sprites/spr_explosao/spr_explosao.yy",},},
     {"id":{"name":"spr_tiro_player_2","path":"sprites/spr_tiro_player_2/spr_tiro_player_2.yy",},},
+    {"id":{"name":"sq_boss_entrando","path":"sequences/sq_boss_entrando/sq_boss_entrando.yy",},},
     {"id":{"name":"spr_impactotiro","path":"sprites/spr_impactotiro/spr_impactotiro.yy",},},
     {"id":{"name":"spr_boss_pousando","path":"sprites/spr_boss_pousando/spr_boss_pousando.yy",},},
     {"id":{"name":"Notas","path":"notes/Notas/Notas.yy",},},

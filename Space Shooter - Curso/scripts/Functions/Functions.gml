@@ -12,3 +12,14 @@ function ganhando_pontos(_pontos) {
 			obj_controller.ganha_pontos(_pontos);
 		}
 }
+
+// Destruindo a sequencia
+function destroi_seq()
+{
+	// Tentando pegar a sequência da minha layer 
+	var _elementos = layer_get_all_elements("Entrada_Boss");
+	layer_sequence_destroy(_elementos[0]);
+	
+	// Criando o boss 
+	instance_create_layer(960, 320, "Boss", obj_boss);
+}

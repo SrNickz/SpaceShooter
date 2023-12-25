@@ -266,3 +266,13 @@
 	(Fase cria minions agressivos)
 	
 27 - Animação chegada do boss
+	27.1 - Importando as sprites - Feito
+	27.2 - Criando a animação - Feito
+	27.3 - Destruindo a sequence no final da animação - Feito
+	27.4 - Criando o boss depois de destruir a sequence Feito
+	
+28 - Animação da morte do boss
+	28.1 - Deixando a animação com 10s - Feito
+	28.2 - Criando várias explosões pelo boss - Feito
+	28.3 - Fazendo o boss cair da tela até sumir - Feito
+	28.4 - Fazendo o boss criar a animação da morrer -
