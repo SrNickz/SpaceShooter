@@ -6,7 +6,7 @@ if (estado_atual != "estado 4")
 	{
 		if (vida_atual > 0) 
 		{
-			vida_atual -= 10;
+			vida_atual -= 5;
 		}
 		else
 		{

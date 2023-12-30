@@ -21,5 +21,14 @@ function destroi_seq()
 	layer_sequence_destroy(_elementos[0]);
 	
 	// Criando o boss 
-	instance_create_layer(960, 320, "Boss", obj_boss);
+	instance_create_layer(960, 290, "Boss", obj_boss);
+}
+
+function cria_seq_vitoria()
+{
+	if(instance_exists(obj_player))
+	{
+		layer_sequence_create("Vitoria_Player", obj_player.x, obj_player.y - 300, sq_levelend);
+		instance_destroy(obj_player, false);
+	}
 }

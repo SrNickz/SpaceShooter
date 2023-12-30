@@ -9,7 +9,7 @@
 // Estado especial 1 - Invencível enquando cria 2 minions para recuperar vida
 // Estado especias 2 - Criar 
 //randomize();
-estado_atual = choose("estado 1", "estado 2", "estado 3");
+estado_atual = "estado 1";
 delay_tiro = room_speed / 2;
 espera_tiro_boss = 0;
 velh = 3

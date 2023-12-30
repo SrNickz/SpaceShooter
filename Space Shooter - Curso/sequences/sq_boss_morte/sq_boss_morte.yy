@@ -14,14 +14,21 @@
     "resourceVersion": "1.0",
     "Keyframes": [],
   },
-  "eventStubScript": null,
+  "eventStubScript": {
+    "name": "sq_boss_morte_Events2",
+    "path": "scripts/sq_boss_morte_Events2/sq_boss_morte_Events2.yy",
+  },
   "eventToFunction": {},
   "length": 600.0,
   "lockOrigin": false,
   "moments": {
     "resourceType": "KeyframeStore<MomentsEventKeyframe>",
     "resourceVersion": "1.0",
-    "Keyframes": [],
+    "Keyframes": [
+      {"resourceType":"Keyframe<MomentsEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MomentsEventKeyframe","resourceVersion":"1.0","Events":[
+              "cria_seq_vitoria",
+            ],},},"Disabled":false,"id":"62f8fa56-efd6-4648-a9e9-ed88d9a3c18c","IsCreationKey":false,"Key":599.99976,"Length":1.0,"Stretch":false,},
+    ],
   },
   "parent": {
     "name": "Sequences",

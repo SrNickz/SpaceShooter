@@ -4,18 +4,22 @@ randomize();
 // Iniciando
 alarm[0] = room_speed;
 
+pode_criar_gameover = false;
+
 // Iniciando o sistema de pontos
 pontos = 0; 
 
 // iniciando o sistema de leveis 
-level = 1;
+level = 10;
 
 // Quantos pontos eu preciso para o proximo level
-proximo_level = 100;
+proximo_level = 10;
 // Criando um metodo para ganhar pontos 
 
 // Variável de controle para o gameover
 gameover_seq = noone;
+
+criar_boss = true;
 
 ///@method ganha_pontos(pontos)
 ganha_pontos = function(_pontos) {
