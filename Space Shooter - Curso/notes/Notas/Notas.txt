@@ -288,3 +288,15 @@
 	30.2 - Quando o boss morrer e a animação de morte dele acabar criar a aanimação do player na posição dele	
 		30.2.1 - Criar a função que executa a sequência do player 
 	30.3 - Garantir que o controller não vai achar que o player perdeu
+
+31 - Criando a tela inicial do jogo 
+	31.1 - Criar a room da tela inicial - Feito
+	31.2 - Criar os botões - 
+		31.2.1 - Fazer o botao mudar de cor se o mouse ta em cima
+		31.2.2 - Voltar a cor original se o mouse sai 
+		31.2.3 - Desenhar o texto
+			31.2.3.1 - Desenhando a fonte centralizada 
+	
+32 - Criar a transição - 
+
+33 - Criar a tela de transição - 
